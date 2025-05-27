@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+/* Variáveis de cores*/
+:root {
+    --background-color: #f7f7f7;
+    --text-title-color: #053D4E;
+    --text-color: #000000;
+    --icon-color: #000000;
+    --icon-menu-color: #707780;
+    --menu-color: #707780;
+    --table-cbc: #E6E9ED;
+    --table-body: #f7f7f7;
+
+    --text-selected-color: #355CC0;
+    --background-selected: #EBF0FF;
+    --background-hover: #F7F9FA;
+
+    --border-color: #E6E9ED;
+}
+
+.dark-mode {
+    --background-color: #161616;
+    --text-title-color: #f7f7f7;
+    --text-color: #f7f7f7;
+    --icon-color: #f7f7f7;
+    --icon-menu-color: #f7f7f7;
+    --menu-color: #f7f7f7;
+    --table-cbc: #1b1b1b;
+    --table-body: #161616;
+
+    --text-selected-color: #f7f7f7;
+    --background-selected: #2e2e2e;
+    --background-hover: #2e2e2e;
+
+    --border-color: #1b1b1b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", serif;
+}
+
+/*##*/
+body {
+    width: 100%;
+    height: 100vh;
+}
+
